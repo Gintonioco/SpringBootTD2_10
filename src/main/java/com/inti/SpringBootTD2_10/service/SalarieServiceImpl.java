@@ -15,7 +15,7 @@ public class SalarieServiceImpl implements SalarieService
 	SalarieRepository salarieRepository;
 
 	@Override
-	public void saveGuitar(Salarie salarie)
+	public void saveSalarie(Salarie salarie)
 	{
 		salarieRepository.save(salarie);
 	}

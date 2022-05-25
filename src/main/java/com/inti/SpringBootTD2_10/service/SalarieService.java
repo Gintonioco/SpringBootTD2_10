@@ -8,7 +8,7 @@ import com.inti.SpringBootTD2_10.model.Salarie;
 public interface SalarieService
 {
 		//Create
-		void saveGuitar(Salarie salarie);
+		void saveSalarie(Salarie salarie);
 		
 		//Read all the Salaries
 		List<Salarie> getListSalaries();
